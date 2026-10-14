@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manasa S. — BCA student and aspiring web developer portfolio">
+  <title>Manasa S. | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Manasa home"><span class="brand-mark">M.</span><span>MANASA S.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> BCA STUDENT · ASPIRING DEVELOPER</div>
+        <h1>Curious mind.<br><span class="gradient-text">Creative code.</span></h1>
+        <p class="hero-intro">Hi, I'm <strong>Manasa</strong>. I’m learning to turn ideas into thoughtful, useful digital experiences — one line of code at a time.</p>
+        <div class="typing-line"><span class="mono">CURRENTLY EXPLORING</span> <span id="typingText">Web development</span><span class="typing-caret">|</span></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-icon">⌘</span> HTML · CSS · JavaScript</span><span><span class="meta-icon">✳</span> Always learning</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative creative coding illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card card-back"><span class="tiny-label">IDEA / 001</span><div class="fake-code"><i></i><i></i><i></i><b></b><b></b><i></i></div></div>
+        <div class="art-card card-front">
+          <div class="window-top"><span></span><span></span><span></span><small>hello-world.js</small></div>
+          <div class="code-lines"><p><em>const</em> <strong>dream</strong> = {</p><p class="indent">curiosity: <mark>true</mark>,</p><p class="indent">ideas: <mark>"limitless"</mark>,</p><p class="indent">learning: <mark>"every day"</mark></p><p>};</p><br><p><em>while</em> (dream) {</p><p class="indent">buildSomething();</p><p>}</p></div>
+          <div class="code-footer"><span>● READY TO CREATE</span><span>JS</span></div>
+        </div>
+        <div class="floating-chip chip-top">✦ Made with curiosity</div>
+        <div class="floating-chip chip-bottom"><span class="status-dot"></span> Open to opportunities</div>
+        <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal"><span class="section-number">01 / ABOUT</span><h2>Building my skills,<br><span class="muted">shaping my future.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-note reveal"><div class="quote-mark">“</div><p>I believe good technology starts with curiosity and grows through practice.</p><span class="mono">A LITTLE ABOUT MY APPROACH</span></div>
+        <div class="about-copy reveal"><p>I'm a Bachelor of Computer Applications (BCA) student with an interest in web development and creating user-friendly digital experiences. I enjoy learning how websites work, experimenting with code, and improving a project step by step.</p><p>This portfolio is a snapshot of my learning journey. I'm focused on strengthening my fundamentals, building practical projects, and becoming a confident developer.</p>
+          <div class="fact-row"><div><strong>BCA</strong><span>Education</span></div><div><strong>3+</strong><span>Core technologies</span></div><div><strong>∞</strong><span>Things to learn</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal"><span class="section-number">02 / TOOLKIT</span><h2>Skills I'm <span class="gradient-text">growing.</span></h2><p>Learning by doing, improving with every project.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">⌘</span><span class="skill-index">01</span></div><h3>Frontend</h3><p>Creating the structure, style, and interactions behind web pages.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">{"}"}</span><span class="skill-index">02</span></div><h3>Programming</h3><p>Building a foundation in programming logic and problem solving.</p><div class="tag-list"><span>C</span><span>C++</span><span>Java</span></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">▤</span><span class="skill-index">03</span></div><h3>Tools & workflow</h3><p>Practising how to build, test, and organise small projects.</p><div class="tag-list"><span>VS Code</span><span>Git basics</span><span>Debugging</span></div></article>
+      </div>
+      <p class="small-note">Skill list reflects learning areas. Update it to match your current confidence and experience.</p>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading reveal"><span class="section-number">03 / SELECTED WORK</span><h2>Small steps.<br><span class="muted">Real projects.</span></h2><p>A few project ideas to start with. Replace these cards with your actual work.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal" tabindex="0" data-project="portfolio">
+          <div class="project-visual visual-purple"><span class="visual-label">01 — WEB DESIGN</span><div class="mini-browser"><div class="mini-browser-bar"><i></i><i></i><i></i></div><div class="mini-layout"><div class="mini-sidebar"></div><div class="mini-content"><b></b><b></b><div></div><div></div></div></div></div><span class="visual-star">✳</span></div>
+          <div class="project-info"><div><span class="project-type">PERSONAL BRAND</span><h3>Interactive Portfolio</h3></div><button class="project-open" aria-label="View portfolio project details" data-detail="portfolio">↗</button><p>A responsive personal website featuring motion, thoughtful layouts, and a little personality.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card reveal" tabindex="0" data-project="student">
+          <div class="project-visual visual-green"><span class="visual-label">02 — PRODUCTIVITY</span><div class="todo-window"><div class="todo-title">My focus list <span>✦</span></div><div class="todo-item"><i>✓</i> Review JavaScript</div><div class="todo-item"><i></i> Build a new feature</div><div class="todo-item"><i></i> Learn something new</div><div class="todo-progress"><span></span></div></div></div>
+          <div class="project-info"><div><span class="project-type">STUDENT TOOL</span><h3>Focus List</h3></div><button class="project-open" aria-label="View focus list project details" data-detail="student">↗</button><p>A simple task organiser concept designed to make study sessions feel manageable.</p><div class="tag-list"><span>JavaScript</span><span>CSS</span><span>UI</span></div></div>
+        </article>
+        <article class="project-card reveal" tabindex="0" data-project="api">
+          <div class="project-visual visual-orange"><span class="visual-label">03 — API PRACTICE</span><div class="api-window"><span class="api-method">GET</span><span class="api-url">/api/learning</span><div class="api-response"><b>{</b><p>"status": <em>"learning"</em>,</p><p>"progress": <strong>"in progress"</strong></p><b>}</b></div><div class="api-success">● RESPONSE RECEIVED</div></div></div>
+          <div class="project-info"><div><span class="project-type">DEVELOPMENT</span><h3>API Explorer</h3></div><button class="project-open" aria-label="View API explorer project details" data-detail="api">↗</button><p>A practice project for understanding requests, responses, and working with JSON data.</p><div class="tag-list"><span>JavaScript</span><span>Fetch API</span><span>JSON</span></div></div>
+        </article>
+      </div>
+      <div class="project-disclaimer">These are starter concepts, not claims of completed work. Keep only projects you have actually built.</div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="section-heading reveal"><span class="section-number">04 / THE JOURNEY</span><h2>Learning is <span class="gradient-text">the point.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="timeline-date">NOW</span><div><h3>Bachelor of Computer Applications</h3><p>Swamy Vivekananda Rural First Grade College</p><span class="timeline-detail">Building core computer science and development skills.</span></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="timeline-date">NEXT</span><div><h3>Build and publish projects</h3><p>Practice · Experiment · Improve</p><span class="timeline-detail">Turn classroom concepts into useful, working projects.</span></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="timeline-date">FUTURE</span><div><h3>Grow into a developer</h3><p>Keep learning, stay curious</p><span class="timeline-detail">Explore opportunities to collaborate and gain experience.</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel reveal"><div class="contact-orb"></div><span class="section-number">05 / CONTACT</span><h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p>I'm happy to connect about projects, learning, and opportunities to grow.</p>
+        <a class="button button-primary" id="emailButton" href="mailto:mmanasa51511@gmail.com?subject=Hello%20Manasa">Email me <span>↗</span></a>
+        <button class="copy-email" id="copyEmail">mmanasa51511@gmail.com <span>▣ Copy email</span></button>
+        <div class="contact-foot"><span>BASED IN INDIA</span><span>MADE WITH CURIOSITY <b>✳</b></span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">M.</span><span>MANASA S.</span></a><span>© <span id="year"></span> · Designed & built with care.</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="projectDialog" class="project-dialog"><button class="dialog-close" id="dialogClose" aria-label="Close details">×</button><span class="section-number">PROJECT NOTES</span><h2 id="dialogTitle">Project</h2><p id="dialogDescription"></p><div class="tag-list" id="dialogTags"></div><p class="dialog-tip">Tip: link this card to your GitHub repository or live demo once your project is ready.</p><button class="button button-primary" id="dialogDone">Got it <span>✓</span></button></dialog>
+</body>
+  </html>
